@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CB13E51F2913A16C008F45BB /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB13E51E2913A16C008F45BB /* PostCell.swift */; };
 		CB13E5212913B10B008F45BB /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB13E5202913B10B008F45BB /* DateFormatter+Extensions.swift */; };
-		CB69974E2910F705007EDA6B /* Filmotype-Jade.otf in Resources */ = {isa = PBXBuildFile; fileRef = CB69974C2910F704007EDA6B /* Filmotype-Jade.otf */; };
 		CB6997512911044D007EDA6B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6997502911044D007EDA6B /* SignUpViewController.swift */; };
 		CB6997532911354B007EDA6B /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6997522911354B007EDA6B /* FeedViewController.swift */; };
 		CB73D395290E3B4A00C12538 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB73D394290E3B4A00C12538 /* AppDelegate.swift */; };
@@ -28,7 +27,6 @@
 /* Begin PBXFileReference section */
 		CB13E51E2913A16C008F45BB /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		CB13E5202913B10B008F45BB /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
-		CB69974C2910F704007EDA6B /* Filmotype-Jade.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Filmotype-Jade.otf"; sourceTree = "<group>"; };
 		CB6997502911044D007EDA6B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		CB6997522911354B007EDA6B /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		CB73D391290E3B4A00C12538 /* Unit 5 Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unit 5 Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,14 +89,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		CB6997472910E7E3007EDA6B /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				CB69974C2910F704007EDA6B /* Filmotype-Jade.otf */,
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
 		CB73D388290E3B4A00C12538 = {
 			isa = PBXGroup;
 			children = (
@@ -129,7 +119,6 @@
 				CB73D39D290E3B4C00C12538 /* Assets.xcassets */,
 				CB73D39F290E3B4C00C12538 /* LaunchScreen.storyboard */,
 				CB73D3A2290E3B4C00C12538 /* Info.plist */,
-				CB6997472910E7E3007EDA6B /* Fonts */,
 			);
 			path = "Unit 5 Project";
 			sourceTree = "<group>";
@@ -211,7 +200,6 @@
 			files = (
 				CB73D3A1290E3B4C00C12538 /* LaunchScreen.storyboard in Resources */,
 				CB73D39E290E3B4C00C12538 /* Assets.xcassets in Resources */,
-				CB69974E2910F705007EDA6B /* Filmotype-Jade.otf in Resources */,
 				CB73D39C290E3B4A00C12538 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
