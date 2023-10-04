@@ -2,7 +2,7 @@
 
 Submitted by: **Kyler Mallonn**
 
-**Unit 5  Project** is an app that ... [TODO] 
+**Unit 5  Project** is a social media app that allows a user to create and sign into a new account, and create, save, and view posts using [back4app](https://www.back4app.com/) API.
 
 Time spent: **5** hours spent in total
 
@@ -25,11 +25,11 @@ The following **optional** features are implemented:
 
 ## Video Walkthrough
 
-<div>
-    <a href="https://www.loom.com/share/60f00864feb147fb98aaed326c944b73">
+  <div>
+    <a href="https://www.loom.com/share/c7e061fe24fc4273874cac6cba6703fb">
     </a>
-    <a href="https://www.loom.com/share/60f00864feb147fb98aaed326c944b73">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/60f00864feb147fb98aaed326c944b73-with-play.gif">
+    <a href="https://www.loom.com/share/c7e061fe24fc4273874cac6cba6703fb">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/c7e061fe24fc4273874cac6cba6703fb-with-play.gif">
     </a>
   </div>
 
