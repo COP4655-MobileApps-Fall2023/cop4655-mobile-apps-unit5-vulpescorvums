@@ -1,42 +1,44 @@
-# Project 6 - *Name of App Here*
+# Project 6 - *Unit 6 Project*
 
-Submitted by: **Your Name Here**
+Submitted by: **Kyler Mallonn**
 
-**Name of your app** is an app that introduces ... [TODO] 
+**Unit 6 Project** is an "BeReal." app clone that allows a user to create a new account and sign in, and create, save, and view posts using back4app API. You can only view posts that are less than 24 hours long and all other posts are blurred until you create a post, which resets after 24 hours.
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] User can launch camera to take photo instead of photo library
-- [ ] User session persists when application is closed and relaunched
-- [ ] Users are able to log out and return to sign in page
-- [ ] Users are NOT able to see other photos until they upload their own	
+- [x] User can launch camera to take photo / add unique photo to library.
+- [x] User session persists when application is closed and relaunched
+- [x] Users are able to log out and return to sign in page
+- [x] Users are NOT able to see other photos until they upload their own	
  
 The following **optional** features are implemented:
 
 - [ ] User receive notifcation when it is time to post
 - [ ] Users can make comments and view comments in posts	
 
-The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
-
 ## Video Walkthrough
 
-Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
-
-[Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .
+<div>
+    <a href="https://www.loom.com/share/c7e061fe24fc4273874cac6cba6703fb">
+    </a>
+    <a href="https://www.loom.com/share/c7e061fe24fc4273874cac6cba6703fb">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/c7e061fe24fc4273874cac6cba6703fb-with-play.gif">
+    </a>
+  </div>.
 
 ## Notes
 
 Describe any challenges encountered while building the app.
 
+NONE.
+
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [Kyler Mallonn]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
