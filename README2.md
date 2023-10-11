@@ -2,7 +2,7 @@
 
 Submitted by: **Kyler Mallonn**
 
-**Unit 6 Project** is an "BeReal." app clone that allows a user to create a new account and sign in, and create, save, and view posts using back4app API. You can only view posts that are less than 24 hours long and all other posts are blurred until you create a post, which resets after 24 hours.
+**Unit 6 Project** is an "BeReal." app clone that allows a user to create a new account and sign in, and create, save, and view posts using [back4app](https://www.back4app.com/) API. You can only view posts that are less than 24 hours long and all other posts are blurred until you create a post, which resets after 24 hours.
 
 Time spent: **3** hours spent in total
 
@@ -22,13 +22,13 @@ The following **optional** features are implemented:
 
 ## Video Walkthrough
 
-<div>
-    <a href="https://www.loom.com/share/c7e061fe24fc4273874cac6cba6703fb">
+  <div>
+    <a href="https://www.loom.com/share/a298b16b26e9443db82e6291e9a80818">
     </a>
-    <a href="https://www.loom.com/share/c7e061fe24fc4273874cac6cba6703fb">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/c7e061fe24fc4273874cac6cba6703fb-with-play.gif">
+    <a href="https://www.loom.com/share/a298b16b26e9443db82e6291e9a80818">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/a298b16b26e9443db82e6291e9a80818-with-play.gif">
     </a>
-  </div>.
+  </div>
 
 ## Notes
 
