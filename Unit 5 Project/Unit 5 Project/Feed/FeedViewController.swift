@@ -6,6 +6,7 @@ class FeedViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var roundedButton: UIButton!
+    private let refreshControl = UIRefreshControl()
     
     private var posts = [Post]() {
         didSet {
@@ -22,6 +23,9 @@ class FeedViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.allowsSelection = false
+        
+        tableView.refreshControl = refreshControl
+        refreshControl.addTarget(self, action: #selector(onPullToRefresh), for: .valueChanged)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -30,17 +34,17 @@ class FeedViewController: UIViewController {
         queryPosts()
     }
     
-    // Get the date for yesterday. Adding (-1) day is equivalent to subtracting a day.
-    // NOTE: `Date()` is the date and time of "right now".
     let yesterdayDate = Calendar.current.date(byAdding: .day, value: (-1), to: Date())!
     
-    private func queryPosts() {
+    private func queryPosts(completion: (() -> Void)? = nil) {
+        let yesterdayDate = Calendar.current.date(byAdding: .day, value: (-1), to: Date())!
+      
         let query = Post.query()
             .include("user")
             .order([.descending("createdAt")])
-            .where("createdAt" >= yesterdayDate) // <- Only include results created yesterday onwards
-            .limit(10) // <- Limit max number of returned posts to 10
-        
+            .where("createdAt" >= yesterdayDate)
+            .limit(10)
+
         query.find { [weak self] result in
             switch result {
             case .success(let posts):
@@ -48,11 +52,19 @@ class FeedViewController: UIViewController {
             case .failure(let error):
                 self?.showAlert(description: error.localizedDescription)
             }
+            completion?()
         }
     }
     
     @IBAction func onLogOutTapped(_ sender: Any) {
         showConfirmLogoutAlert()
+    }
+    
+    @objc private func onPullToRefresh() {
+        refreshControl.beginRefreshing()
+        queryPosts { [weak self] in
+            self?.refreshControl.endRefreshing()
+        }
     }
     
     private func showConfirmLogoutAlert() {
