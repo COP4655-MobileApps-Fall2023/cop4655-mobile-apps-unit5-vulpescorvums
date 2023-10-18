@@ -35,3 +35,20 @@ Make a list of your favorite apps and for each app, identify 2-3 features of tha
 -**YNAB**
     1. A budget app, this app keeps tracks of my spendings from my credit cards
     2. It lets you play around with money you have in your bank so you can properly budget and see what you can spend on before you go negative or have no money.
+# Kyle Moore
+-**Brick**
+     1. Simple and fun game that is intuitive and meant to pass time.
+     2. Does not require 1+ players.
+     3. Not frustrating, enjoyable.
+-**Notes**
+     1. Helps for daily to-do lists.
+     2. Enables excellent organization of tasks.
+     3. Prioritizes times of things to get done first.
+-**Heart Health**
+     1. Tracks heart rate to ensure health is good.
+     2. Tracks amount of exercise in time spans for daily, weekly, monthly, and overall.
+     3. Lets user know of any health concerns they may have.
+-**Calendar**
+     1. Alerts user of upcoming events that have been set for days of a month.
+     2. Organizes tasks orderly that are set for a day.
+     3. Gives user rundown of tasks that are shortest/easiest to complete in time, helping for efficiency/organization.
