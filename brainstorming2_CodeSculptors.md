@@ -15,6 +15,10 @@ This activity is a bulk ideation session and is just to get your creative juices
 **1. GroceryChick -** An app that compares prices with local grocery stores of items in your cart.
 **2. Automine -** An app that can turn an ordinary picture into a cartoon or an anime style portrait, the type of cartoon or anime can be based on your favorite show.
 
+**Kyle Moore**
+**1. NoteJotter -** An app for taking notes with organization, efficiency, and with ease.
+**2. HeartAnalyzer -** An app for determining your heart rate and other health factors linked to this to determine your overall health and well-being.
+
 By the end of this unit, settle on 2 or 3 app ideas from your original 5, and be ready to move forward with one starting next unit.
 
 As you identify potential app ideas, write a summary for each.
@@ -50,7 +54,7 @@ As you identify potential app ideas, write a summary for each.
 
 **Challenges:** Potential challenges include finding their exact location and figuring out the best display layout for ease of use.
 
-**App idea 2:** YouFitness
+**App idea 2:** *YouFitness*
 What:is an app designed to help individuals track ther calories and nutrient goals and also have a section with recipes.
 
 **Who:** The app is targeted at anyone who is interested living a healthier lifestyle.
@@ -59,7 +63,7 @@ What:is an app designed to help individuals track ther calories and nutrient goa
 
 **Challenges:** Potential challenges include finding an API, making sure the recipes are safe to make and healthy recipes.
 
-**app idea 3:** MyNews
+**app idea 3:** *MyNews*
 What:is a news aggregator with a similar ui to our flixter HW. app designed to provide users with a feed similar to instagram.
 
 **Who:** The app is targeted at anyone wants to be kept updated without browsing the web.
@@ -76,3 +80,12 @@ What:is a news aggregator with a similar ui to our flixter HW. app designed to p
 **Why**: To have individuals able to shop and know they are getting the best deals that are near them.
 
 **Challenges:** Staying up-to-date with sales/ promotions that grocercy stores may have weekly. Knowing if the grocery stores have the item the customer wants in stock. Assuming the customer doesn't have certain perks or coupons towards a particular grocery store.
+
+**App idea 5:** *NoteJotter*
+**What:** Note-taking app with ease using an intuitive, organized UI (User Interface). Helps with organization of tasks needing to get done. Supports strikethrough for text to raise morale of user and measure productivity of tasks that have been resolved for a given timeframe/note. Combines the functionalities of a calendar with alerts and other features to help user complete their tasks in an orderly fashion.
+
+**Who:** Aimed at users who want a simple, and intuitive app which runs with responsiveness, and gives advanced/extra features without overcomplicating the process, for making notes quickly and effectively, including tasks needing to be completed with their respective times and dates. App is also aimed at targeting users looking for a combined notes and calendar app.
+
+**Why**: To help individuals to keep track of life's various obligations, chores, and other tasks with all of their respective details, which realistically cannot be kept track of with just the human mind. Also for individuals to increase their productivity and achieve their goals, whether it's short-term, long-term, or both.
+
+**Challenges:** Potential challenges include finding an API, making sure the app has original features the make it differ an that the news provided is actually important. Developing a friendly UI that is responsive and organized to capture a good first impression to keep users engaged in using it, and to enhance its popularity.
